@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "2DoList",
+    "slug": "2DoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.todolist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a24b6fe4-e77f-462e-bd60-e3cc6463fe7f"
+      }
+    }
+  }
+}
